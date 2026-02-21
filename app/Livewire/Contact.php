@@ -2,10 +2,11 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
+use App\Mail\ContactFormSubmission;
 use Illuminate\Support\Facades\Mail;
-use Livewire\Attributes\Validate;
 use Livewire\Attributes\Layout;
+use Livewire\Attributes\Validate;
+use Livewire\Component;
 
 #[Layout('components.layouts.minimal')]
 class Contact extends Component
@@ -54,7 +55,18 @@ class Contact extends Component
 
         $this->validate();
 
-        // Log the submission
+        // Send email notification
+        Mail::to('info@oakbridgepcs.com')->send(
+            new ContactFormSubmission(
+                name: $this->name,
+                email: $this->email,
+                phone: $this->phone,
+                company: $this->company,
+                contactMessage: $this->message,
+            )
+        );
+
+        // Also log it
         logger()->info('Oakbridge contact form submission', [
             'name' => $this->name,
             'email' => $this->email,
