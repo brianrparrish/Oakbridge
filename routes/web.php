@@ -13,8 +13,6 @@ Route::get('/', function () {
 
 // Public pages
 Route::get('/contact', App\Livewire\Contact::class)->name('contact');
-Route::view('/privacy', 'pages.privacy')->name('privacy');
-Route::view('/pci-compliance', 'pages.pci-compliance')->name('pci-compliance');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

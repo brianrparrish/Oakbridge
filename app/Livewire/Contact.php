@@ -5,7 +5,9 @@ namespace App\Livewire;
 use Livewire\Component;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Attributes\Validate;
+use Livewire\Attributes\Layout;
 
+#[Layout('components.layouts.minimal')]
 class Contact extends Component
 {
     #[Validate('required|string|max:100')]
@@ -40,25 +42,20 @@ class Contact extends Component
     {
         // Honeypot check - bots fill this in
         if (!empty($this->website)) {
-            // Silently reject but appear successful
             $this->submitted = true;
             return;
         }
 
         // Time-based check - form submitted too fast (< 3 seconds)
         if (time() - $this->formLoadedAt < 3) {
-            // Silently reject but appear successful
             $this->submitted = true;
             return;
         }
 
         $this->validate();
 
-        // Send notification email (configure in .env)
-        // Mail::to(config('mail.contact_to'))->send(new \App\Mail\ContactFormSubmission($this));
-
-        // For now, just log it
-        logger()->info('Contact form submission', [
+        // Log the submission
+        logger()->info('Oakbridge contact form submission', [
             'name' => $this->name,
             'email' => $this->email,
             'phone' => $this->phone,
@@ -71,7 +68,6 @@ class Contact extends Component
 
     public function render()
     {
-        return view('livewire.contact')
-            ->layout('components.layouts.public', ['title' => 'Contact Us']);
+        return view('livewire.contact');
     }
 }
