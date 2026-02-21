@@ -185,7 +185,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8">
                 <div class="md:col-span-2">
-                    <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b_sml.jpg" alt="Oakbridge" class="h-10 mb-4 brightness-0 invert">
+                    <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b.png" alt="Oakbridge" class="h-10 mb-4">
                     <p class="text-sm">
                         Professional commercial collection services with integrity and results. Licensed and bonded nationwide.
                     </p>
