@@ -23,7 +23,12 @@
         </div>
 
         <!-- Tagline -->
-        <p class="text-xl text-gray-700 italic mb-10">Service Creditors Trust</p>
+        <p class="text-xl text-gray-700 italic mb-6">Service Creditors Trust</p>
+
+        <!-- Phone -->
+        <p class="text-gray-600 mb-8">
+            <a href="tel:+15022055206" class="hover:text-oak-600 transition">(502) 205-5206</a>
+        </p>
 
         <!-- Contact Button -->
         <a href="{{ route('contact') }}" class="inline-block bg-oak-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-oak-700 transition">
