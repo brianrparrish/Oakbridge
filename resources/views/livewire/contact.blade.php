@@ -3,7 +3,7 @@
         <!-- Logo Header -->
         <div class="text-center mb-8">
             <a href="/">
-                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b_sml.jpg" alt="Oakbridge" class="h-32 mx-auto mb-4">
+                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b.svg" alt="Oakbridge" class="h-32 mx-auto mb-4">
             </a>
             <p class="text-lg text-gray-700 italic">Service Creditors Trust</p>
         </div>

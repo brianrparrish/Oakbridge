@@ -20,7 +20,7 @@
         <div class="text-center px-6">
             <!-- Logo -->
             <div class="mb-6">
-                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b_sml.jpg" alt="Oakbridge" class="h-40 mx-auto">
+                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b.svg" alt="Oakbridge" class="h-40 mx-auto">
             </div>
 
             <!-- Tagline -->
