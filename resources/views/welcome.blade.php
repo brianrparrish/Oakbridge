@@ -16,6 +16,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-stone-100 text-gray-900 antialiased min-h-screen flex flex-col">
+    <!-- Client Portal Link - Top Right -->
+    <nav class="absolute top-0 right-0 p-6">
+        <a href="https://app.simplicitycollect.com/ClientPortalLogin.aspx" class="text-oak-600 hover:text-oak-700 transition" style="font-family: 'Libre Baskerville', serif;">
+            Client Portal
+        </a>
+    </nav>
+
     <main class="flex-grow flex items-center justify-center">
         <div class="text-center px-6">
             <!-- Logo (15% larger: h-40 -> h-46 equivalent) -->
