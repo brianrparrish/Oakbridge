@@ -11,20 +11,20 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=inter:400,500,600" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600|libre-baskerville:400,400i,700" rel="stylesheet" />
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-white text-gray-900 antialiased min-h-screen flex flex-col">
+<body class="bg-stone-100 text-gray-900 antialiased min-h-screen flex flex-col">
     <main class="flex-grow flex items-center justify-center">
         <div class="text-center px-6">
-            <!-- Logo -->
+            <!-- Logo (15% larger: h-40 -> h-46 equivalent) -->
             <div class="mb-6">
-                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b.svg" alt="Oakbridge" class="h-40 mx-auto">
+                <img src="/OakbridgeD04aR02bP13ZL-Jefferson2b.svg" alt="Oakbridge" class="mx-auto" style="height: 11.5rem;">
             </div>
 
-            <!-- Tagline -->
-            <p class="text-xl text-gray-700 italic mb-6">Service Creditors Trust</p>
+            <!-- Tagline - Baskerville font, wide letter-spacing to span ~80% of logo width -->
+            <p class="text-xl text-gray-700 italic mb-6" style="font-family: 'Libre Baskerville', serif; letter-spacing: 0.35em; width: 80%; margin-left: auto; margin-right: auto;">Service Creditors Trust</p>
 
             <!-- Address -->
             <p class="text-gray-600 mb-2">908 Minoma Ave, Louisville, KY 40217</p>
