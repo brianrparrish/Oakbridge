@@ -27,21 +27,21 @@
             <p class="text-xl text-gray-700 italic mb-6" style="font-family: 'Libre Baskerville', serif; letter-spacing: 0.35em; width: 80%; margin-left: auto; margin-right: auto;">Service Creditors Trust</p>
 
             <!-- Address -->
-            <p class="text-gray-600 mb-2">908 Minoma Ave, Louisville, KY 40217</p>
+            <p class="text-gray-600 mb-2" style="font-family: 'Libre Baskerville', serif;">908 Minoma Ave, Louisville, KY 40217</p>
 
             <!-- Phone -->
-            <p class="text-gray-600 mb-8">
+            <p class="text-gray-600 mb-8" style="font-family: 'Libre Baskerville', serif;">
                 <a href="tel:+15022055206" class="hover:text-oak-600 transition">(502) 205-5206</a>
             </p>
 
             <!-- Contact Button -->
-            <a href="{{ route('contact') }}" class="inline-block bg-oak-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-oak-700 transition">
+            <a href="{{ route('contact') }}" class="inline-block bg-oak-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-oak-700 transition" style="font-family: 'Libre Baskerville', serif;">
                 Contact Us
             </a>
         </div>
     </main>
 
-    <footer class="py-6 text-center text-sm text-gray-500">
+    <footer class="py-6 text-center text-sm text-gray-500" style="font-family: 'Libre Baskerville', serif;">
         &copy; Oakbridge Professional Collection Services LLC dba Oakbridge. All Rights Reserved.
     </footer>
 </body>
