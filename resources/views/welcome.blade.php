@@ -16,8 +16,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-stone-100 text-gray-900 antialiased min-h-screen flex flex-col max-w-7xl mx-auto px-6">
-    <!-- Client Portal Button - Top Right -->
-    <nav class="flex justify-end pt-6">
+    <!-- Top Right Buttons -->
+    <nav class="flex justify-end gap-3 pt-6">
+        <a href="https://app.simplicitycollect.com/LoginEnhancedPmtPortal.aspx" class="inline-block bg-oak-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-oak-700 transition" style="font-family: 'Libre Baskerville', serif;">
+            Pay Online
+        </a>
         <a href="https://app.simplicitycollect.com/ClientPortalLogin.aspx" class="inline-block bg-oak-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-oak-700 transition" style="font-family: 'Libre Baskerville', serif;">
             Client Portal
         </a>
