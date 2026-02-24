@@ -37,7 +37,7 @@
             <p class="text-xl text-gray-700 italic mb-6" style="font-family: 'Libre Baskerville', serif; letter-spacing: 0.35em; width: 80%; margin-left: auto; margin-right: auto;">Service Creditors Trust</p>
 
             <!-- Address -->
-            <p class="text-gray-600 mb-2" style="font-family: 'Libre Baskerville', serif;">908 Minoma Ave, Louisville, KY 40217</p>
+            <p class="text-gray-600 mb-2" style="font-family: 'Libre Baskerville', serif;">PO Box 17184, Louisville, KY 40217</p>
 
             <!-- Phone -->
             <p class="text-gray-600 mb-8" style="font-family: 'Libre Baskerville', serif;">
